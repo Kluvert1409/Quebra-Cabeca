@@ -38,47 +38,58 @@ public class QuebraCabeca extends JFrame {
         b1 = new JButton("1");
         b1.setBounds(60, 90, 60, 50);
         add(b1);
+        b1.setFocusPainted(false);
 
         b2 = new JButton(" ");
         b2.setBounds(130, 90, 60, 50);
         add(b2);
+        b2.setFocusPainted(false);
 
         b3 = new JButton("3");
         b3.setBounds(200, 90, 60, 50);
         add(b3);
+        b3.setFocusPainted(false);
 
         b4 = new JButton("4");
         b4.setBounds(60, 150, 60, 50);
         add(b4);
+        b4.setFocusPainted(false);
 
         b5 = new JButton("5");
         b5.setBounds(130, 150, 60, 50);
         add(b5);
+        b5.setFocusPainted(false);
 
         b6 = new JButton("6");
         b6.setBounds(200, 150, 60, 50);
         add(b6);
+        b6.setFocusPainted(false);
 
         b7 = new JButton("7");
         b7.setBounds(60, 210, 60, 50);
         add(b7);
+        b7.setFocusPainted(false);
 
         b8 = new JButton("8");
         b8.setBounds(130, 210, 60, 50);
         add(b8);
+        b8.setFocusPainted(false);
 
         b9 = new JButton("2");
         b9.setBounds(200, 210, 60, 50);
         add(b9);
+        b9.setFocusPainted(false);
 
         next = new JButton("Next");
         next.setBounds(110, 310, 120, 40);
         add(next);
+        next.setFocusPainted(false);
 
         back = new JButton("Back");
         back.setBounds(110, 310, 120, 40);
         back.setVisible(false);
         add(back);
+        back.setFocusPainted(false);
 
         b1.addActionListener(new ActionListener() {
             @Override
